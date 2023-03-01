@@ -1,0 +1,68 @@
+#about{
+    height: 1092px;
+    background-color: #111319;
+    .about-my-profile{
+        .item{
+            padding-top: 150px;
+        h6{
+            color: $mainColor;
+        }
+        h2{
+            position: relative;
+            color: white;
+            &::before{
+                content: "";
+                    position: absolute;
+                    left: 50%;
+                    bottom: 0;
+                    margin-bottom: -20px;
+                    width: 150px;
+                    height: 1px;
+                    background-color: #50535a;
+                    transform: translateX(-50%);
+            }
+        }
+    }
+    }
+    .content{
+        .img-container{
+            img{
+                width: 100%;
+            }
+        }
+        .item{
+            h5{
+                line-height: 32px;
+                color: #A7AFAE;
+                margin-top: 90px;
+                font-size: 18px;
+                margin-bottom: 58px
+            }
+        }
+        .information{
+            .content{
+                width: 50%;
+                h4{
+                    margin-bottom: 15px;
+                    color: #FC4319;
+                    margin-top: 25px;
+                }
+                h5{
+                    position: relative;
+                    color: white;
+                    &::before{
+                    content: "";
+                    position: absolute;
+                    left: 50%;
+                    bottom: 0;
+                    margin-bottom: -20px;
+                    width: 320px;
+                    height: 1px;
+                    background-color: #50535a;
+                    transform: translateX(-50%);
+                    }
+                }
+            }
+        }
+    }
+}
